@@ -12,7 +12,8 @@ module OmniAuth
 
       OTHER_REQUEST_OPTIONS = [
         :skip_conditions, :allowed_clock_drift, :matches_request_id,
-        :skip_subject_confirmation, :skip_destination, :skip_recipient_check
+        :skip_subject_confirmation, :skip_destination, :skip_recipient_check,
+        :skip_authnstatement
       ].freeze
 
       option :name_identifier_format, nil
